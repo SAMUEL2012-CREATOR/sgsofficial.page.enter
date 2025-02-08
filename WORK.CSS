@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+body{
+  background-color: black;
+ }  
+ .list{
+  color: blue;
+}
+/* Style the header */
+.header {
+  color: blue;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: blue;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav{
+  background-color: blue;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:black;
+  color: blue;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.button {
+  display: inline-block;
+  border-radius: 300px;
+  background-color:blue;
+  border: none;
+  text-align: center;
+  font-size: 19px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 50%;
+  text-align: center;
+  
+}
+.buffer{
+  height: 50px;
+}
+.list{
+  color: blue;
+}
+/* Style the header */
+.header {
+background-color:black;
+padding: 20px;
+text-align: center;
+}
